@@ -1,10 +1,4 @@
-class saludo:
-
-    def  __init__ (self,mensaje):
-      self.mesaje = mensaje
-
-      def mostrarmensaj(self):
-                print(self.mensaje)
+from holapoo import saludo
     
-    saludo = saludo ("hola mundo")
-    saludo.mostrarmensaje
+saludo = saludo ("hola mundo")
+saludo.mostrarmensaje
